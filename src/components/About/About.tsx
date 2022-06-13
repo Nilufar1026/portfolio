@@ -3,24 +3,17 @@ import './about.scss'
 
 
 const About = () => {
-  return (
-    <div className="About">
-         <div className="container">
-            <div className="row">
-                <div className="col-md-4">
-                    <h2 className="heading">About Me</h2>
-                </div>
-                <div className="col-md-8 ">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
-            </div>
+    return (
+        <div className="About">
+            <h2 className="heading">About Me</h2>
+
+            <p>
+                I´m graduated JavaScript developer from Stockholm.
+                With me you get more than someone who can write functional code. I am a problem solver who thrives when I am met with new tasks. I'm a quick learner and teamplayer.
+                I am an active, curious person. I always put the team’s needs first and believe that I can see the bigger picture when it comes to the process of developing a product.
+            </p>
         </div>
-    </div>
-  );
+    );
 }
 
 export default About;
