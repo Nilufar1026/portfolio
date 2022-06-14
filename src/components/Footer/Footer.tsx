@@ -12,11 +12,11 @@ const Footer = () => {
                         Copyright &copy; <span id="current-year">2022</span> Nilufaer Abulimiti
                     </p>
                 </div>
-                <div className="col-sm-2 top">
+                {/* <div className="col-sm-2 top">
                     <span id="to-top">
                         <i className="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
+                </div> */}
                 <div className="col-sm-5 social">
                     <ul>
                         <li>
