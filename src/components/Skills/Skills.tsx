@@ -6,32 +6,25 @@ const Skills = () => {
     <div id="skills" >
         <h2 className="heading">Skills</h2>
         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+            <li>Style component</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
+            <li>TypeScript</li>
             <li>Node.js</li>
-            <li>AngularJs</li>
             <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Redux</li>
+            <li>React Native</li>
+            <li>Vue.js</li>
+            <li>SQL</li>
+            <li>Firebase</li>
+            <li>Sqlite</li>
+            <li>Figma</li>
+            <li>Grafisk design</li>
+            <li>UX design</li>
+            <li>Test</li>
+            <li>Agile development</li>
         </ul>
     </div>
   );
