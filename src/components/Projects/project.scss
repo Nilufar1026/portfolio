@@ -1,7 +1,7 @@
 @import '../../style/global.scss';
 
 .shadow-large {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .background-alt {
@@ -17,6 +17,10 @@
         color: $heading;
         margin-bottom: 50px;
     }
+
+    .container {
+        // display: flex;
+    }
 }
 
 .project {
@@ -26,18 +30,34 @@
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    display: flex;
+    text-align: left;
+    height: 10rem
 }
 
 .project-image {
     float: left;
+    height: 10rem;
+
+    img {
+        height: 10rem;
+        width: 15rem
+    }
+
+    .ingaBraBygg {
+        height: 10rem;
+        width: 5rem;
+        margin: auto 5rem auto 5rem;
+    }
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
+    // position: absolute;
+    // top: 50%;
+    // transform: translateY(-50%);
+    // margin-left: 300px;
     padding: 15px;
+    margin-left: 5rem;
 
     h3 {
         font-size: 1.5em;
